@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ## Run
 
 ```bash
-python tvWizard.py
+python futon_scraper.py
 ```
 
 Pick a date on the calendar, click **Load Selected Day** or **Load 7-Day Window**, check the shows you want, then copy or export them.

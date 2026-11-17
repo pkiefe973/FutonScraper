@@ -218,7 +218,7 @@ def write_listings_csv(output_path: Path, listings: list[TVListing]) -> None:
 class TVListingsApp:
     def __init__(self, root: tk.Tk):
         self.root = root
-        self.root.title("TV Premiere and Finale Listings")
+        self.root.title("FutonScraper: TV Premieres and Finales")
         self.center_window(WINDOW_WIDTH, WINDOW_HEIGHT)
 
         self.selected_date = datetime.today().date()
